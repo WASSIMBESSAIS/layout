@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=Work+Sans:wght@100&display=swap");
+/*********roboto font *********/
+* {
+  margin: 0%;
+}
+
+/************** logo docplanner ************/
+#logo-docplanner {
+  width: 268px;
+  height: 33px;
+
+  cursor: pointer;
+}
+
+/******************************header**********************************************/
+header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  box-shadow: 1px 3px 14px 3px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 1px 3px 14px 3px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 1px 3px 14px 3px rgba(0, 0, 0, 0.09);
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #ababab;
+}
+
+/****************drop item****************/
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 252px;
+  cursor: pointer;
+  list-style: none;
+}
+.drop-menu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 220px;
+  height: 220px;
+  box-shadow: 2px 7px 11px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 7px 11px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 7px 11px 3px rgba(0, 0, 0, 0.2);
+  margin-left: -100px;
+}
+.drop-menu-item {
+  line-height: 18px;
+  text-align: left;
+  color: #ababab;
+  height: 42px;
+  width: 229px;
+  margin-left: -40px;
+  padding: 12px 16px 12px 16px;
+}
+.drop-menu-item:hover {
+  color: #00b39b;
+  background-color: #f5f5f5;
+}
+.menu-item:hover {
+  color: #00b39b;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+}
+#first-item {
+  margin: top 10px;
+}
+/*****************************************************main*************************************************/
+main {
+  margin-top: 72px;
+}
+/***************************************************section1**********************************************/
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#paragpic {
+  width: 39px;
+  height: 40px;
+  margin-top: 50px;
+  margin-bottom: 25;
+}
+#section1 h1 {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: #00b39b;
+  font-family: "Work Sans", sans-serif;
+}
+
+#parag-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#parag-container p {
+  width: 478px;
+  height: 112px;
+  margin: 13px;
+  color: #747474;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none solid;
+}
+/**************************************box-section*******************************************/
+.box-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 350px;
+  width: 100%;
+  margin: 70px 0;
+}
+.services-selecter-drop {
+  color: black;
+  background-color: white;
+}
+/***********first box***********/
+.first-box {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  width: 280px;
+  background-color: #00ccb1;
+  padding: 32px 32px 0 32px;
+  border-radius: 10px;
+}
+
+#civilianspic {
+  height: 24px;
+  width: 24px;
+  color: #747474;
+}
+.first-box h1 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin: 8px 0 8px 0;
+  font-size: 30px;
+}
+.first-box h2 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 90px;
+  font-size: 24px;
+}
+.select1 {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #00ccb1;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+  height: 40px;
+  width: 172px;
+  margin-bottom: 100px;
+}
+/*************second box*************/
+.second-box {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  width: 280px;
+  background-color: #3d83df;
+  padding: 32px 32px 0 32px;
+  margin-left: -280px;
+  margin-right: -280px;
+  border-radius: 10px;
+}
+#docpic {
+  height: 24px;
+  width: 24px;
+  color: #747474;
+}
+.second-box h1 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin: 8px 0 8px 0;
+  font-size: 30px;
+}
+.second-box h2 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 90px;
+  font-size: 24px;
+}
+.select2 {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #3d83df;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+
+  height: 40px;
+  width: 172px;
+  margin-top: 20px;
+}
+
+/*********THIRD BOX*******/
+.third-box {
+  display: flex;
+
+  flex-direction: column;
+  height: 380px;
+  width: 280px;
+  background-color: #1b2734;
+  padding: 32px 32px 0 32px;
+  border-radius: 10px;
+}
+#clinic {
+  height: 24px;
+  width: 24px;
+}
+.third-box h1 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin: 8px 0 8px 0;
+  font-size: 30px;
+}
+.third-box h2 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 90px;
+  font-size: 24px;
+}
+
+.select3 {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #1b2734;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+  height: 40px;
+  width: 194px;
+  margin-bottom: 15px;
+  margin-top: -60px;
+}
+.select4 {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #1b2734;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+  height: 40px;
+  width: 248px;
+  margin-top: -5px;
+}
+/**************************** section2 ***************************/
+#section2 {
+  display: flex;
+  padding: 0 20px;
+  margin-left: 280px;
+  margin-right: 100px;
+}
+#section2 h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 300px;
+  background-color: white;
+  color: #00b39b;
+  height: 101px;
+  width: 321px;
+}
+.sponlogo {
+  margin-left: 100px;
+  justify-content: space-evenly;
+}
+/*****************************section3**************************************/
+#section3 {
+  background-image: url(logos/logo.png);
+  background-repeat: no-repeat;
+  background-color: #e5faf8;
+  margin-top: 150px;
+  background-position: left 15% bottom -60%;
+  display: flex;
+  justify-content: center;
+}
+
+.section3-container {
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section3-container h3 {
+  font-family: "Work Sans", sans-serif;
+  color: #00b39b;
+  margin-top: 10px;
+
+  text-align: center;
+}
+.section3-container p {
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+}
+.section3-container img {
+  margin-top: 20px;
+}
+/*********first box ****************/
+
+.firstbox {
+  display: flex;
+  justify-content: left;
+  height: 201px;
+  width: 450px;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.firstbox h1 {
+  font-family: "Work Sans", sans-serif;
+  color: #00b39b;
+  font-size: 34px;
+  font-weight: 300px;
+  letter-spacing: -0.3px;
+}
+.firstbox p {
+  margin-top: 30px;
+  max-width: 415px;
+  font-size: 0.875em;
+  font-weight: 400;
+}
+/************flag box ****************/
+
+.flag-box {
+  height: 250px;
+  width: 228px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flag-box p {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+
+/* **************calender box*************/
+.calender-box {
+  height: 250px;
+  width: 228px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calender-box p {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+/*************** patients box************/
+.patients-box {
+  height: 250px;
+  width: 228px;
+  margin-top: -10px;
+  margin-left: 510px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.patients-box p {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+/****************doctors box*************/
+.doctors-box {
+  height: 250px;
+  width: 228px;
+  margin-top: -30px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doctors-box p {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+
+/***************************************section 4*************************************/
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1100px;
+  margin-top: 88px;
+  margin-bottom: 80px;
+  margin-left: 260px;
+}
+/*********************section4-header**********************/
+.section4-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 172px;
+  width: 460px;
+}
+.section4-header h1 {
+  font-family: "Work Sans", sans-serif;
+  color: #00b39b;
+  font-size: 34px;
+  font-weight: 300px;
+  letter-spacing: -0.3px;
+
+  text-align: center;
+}
+.section4-header p {
+  font-family: "Roboto", sans-serif;
+  height: 90px;
+  width: 470px;
+  color: #747474;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.875em;
+  font-weight: 400;
+}
+/***********ofices*************/
+.offices {
+  display: grid;
+  max-width: 1015px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 0 auto;
+  row-gap: 20px;
+}
+.offices h5 {
+  color: #747474;
+}
+.card:hover {
+  box-shadow: 11px 14px 33px -7px rgba(0, 0, 0, 0.87);
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+/**********join us section*********/
+.join-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px auto;
+  font-family: "Work Sans", sans-serif;
+  height: 39px;
+  width: 600px;
+  color: #333333;
+  font-size: 30px;
+}
+.join-us h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/**********fotter********************/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+  padding-top: 70px;
+}
+.footer-inner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 55px;
+  width: 1015px;
+  font-size: 12px;
+  color: #ababab;
+}
+
+span {
+  color: #3d83df;
+  cursor: pointer;
+}
+span :hover {
+  text-decoration: underline;
+}
+/******************media quarry tablette part*****************/
+@media only screen and (max-widh: 900px) {
+  .offices {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  p {
+    font-size: 3px;
+  }
+}
+
+/***************media quarry mobile part*****************/
+@media (max-widh: 500px) {
+  .offices {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  p {
+    font-size: 2px;
+  }
+}
